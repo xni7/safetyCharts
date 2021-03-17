@@ -9,7 +9,7 @@
 #' - VISIT
 #'
 #' @import Tplyr
-#' @import kableExtra
+#' @importFrom kableExtra kable kable_styling scroll_box
 #'
 #' @export
 
