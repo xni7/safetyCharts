@@ -24,7 +24,14 @@ init_aeExplorer <- function(data, settings) {
         minor = settings[["term_col"]],
         group = settings[["trt_col"]],
         id = paste0(settings[["id_col"]]),
-        filters = list(),
+        filters = list(
+            list(
+                value_col=settings[["bodsys_col"]],
+                label="Body System",
+                type="event",
+                start=NULL
+            )
+        ),
         details = list()
     )
 
